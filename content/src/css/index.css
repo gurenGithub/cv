@@ -128,8 +128,11 @@ i {
   padding-left: 0.4rem;
   line-height: 20px;
 }
+.indexwrap .example {
+  padding: 0.4rem;
+}
 .indexwrap .example .example-item .example-item-title {
-  padding: 0.533333rem 0.4rem;
+  padding: 0.266667rem 0.0rem;
   border-bottom: 1px  dashed #ccc;
 }
 .indexwrap .example .example-item .example-item-title img {
@@ -173,4 +176,11 @@ i {
   font-size: 0.453333rem;
   text-align: center;
   border: 0;
+}
+@media only screen and (min-width: 752px) {
+  .indexwrap {
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    width: 10.026667rem;
+  }
 }
