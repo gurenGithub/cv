@@ -128,6 +128,30 @@ i {
   padding-left: 0.4rem;
   line-height: 20px;
 }
+.indexwrap .example .example-item .example-item-title {
+  padding: 0.533333rem 0.4rem;
+  border-bottom: 1px  dashed #ccc;
+}
+.indexwrap .example .example-item .example-item-title img {
+  width: 2.933333rem;
+  height: 0.666667rem;
+  float: left;
+  vertical-align: middle;
+}
+.indexwrap .example .example-item .example-item-title div {
+  width: 6.0rem;
+  float: left;
+  padding-left: 0.266667rem;
+  font-size: 14px;
+  vertical-align: middle;
+  height: 0.666667rem;
+  line-height: 0.666667rem;
+}
+.indexwrap .example .example-item .example-item-title:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
 .indexwrap .footer {
   background: #FFF;
   position: fixed;
