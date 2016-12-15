@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+ @keyframes mymove
+{
+from {left:0px;}
+to {left:200px;}
+}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+from {left:0px;}
+to {left:200px;}
+}
+   .cm-dialog-loadding-content{
+      width: 1.333333rem;
+      height:1.333333rem;
+      position: absolute;
+      background: #fff;
+      z-index: 100;
+      
+     animation:mymove 5s infinite;
+     -webkit-animation:mymove 5s infinite; /*Safari and Chrome*/
+     /* animation:myloadding 2s infinite;
+      animation-timing-function: ease;
+      -webkit-animation:myloadding 2s infinite;
+      -ms-animation:myloadding 2s infinite;
+      -o-animation:myloadding 2s infinite;
+      */
+      z-index: 20;
+      
+   }
+}
+	</style>
+</head>
+<body>
+  <div class="cm-dialog-loadding-content">xx</div>
+</body>
+</html>
